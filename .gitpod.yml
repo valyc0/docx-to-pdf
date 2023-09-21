@@ -5,6 +5,6 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: ./mvnw install -DskipTests=false
+  - init: sdk install java 18.0.1.fx-zulu; ./mvnw install -DskipTests=false
 
 
